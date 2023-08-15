@@ -1,2 +1,2 @@
-# fructus_temporum_task
-fructus temporum test task
+# Тестовое задание на позицию Python backend-разработчик
+[Техническое задание](./docs/technical-assignment.md)
