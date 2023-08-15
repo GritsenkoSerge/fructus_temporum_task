@@ -50,7 +50,7 @@ skip-magic-trailing-comma=false
 line-length=89
 
 [tool.flake8]
-ignore=['W503']
+ignore=['W503', 'CCE001']
 exclude=['.git', 'env/', 'venv/', 'temp/', '*.md', '__pycache__/']
 max-cognitive-complexity=10
 max-line-length=89

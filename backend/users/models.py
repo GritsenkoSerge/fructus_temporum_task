@@ -29,7 +29,7 @@ class User(TimeStampedMixin, UUIDMixin, AbstractUser):
 
     class Meta:
         db_table = 'bookmarks"."user'
-        ordering = ['id']
+        ordering = ['email']
         verbose_name = _('user')
         verbose_name_plural = _('users')
 

@@ -17,6 +17,7 @@ INSTALLED_APPS = [
     'django.contrib.messages',
     'django.contrib.staticfiles',
     'users.apps.UsersConfig',
+    'bookmarks.apps.BookmarksConfig',
 ]
 
 MIDDLEWARE = [
@@ -83,7 +84,7 @@ LANGUAGE_CODE = 'ru-RU'
 TIME_ZONE = 'Europe/Moscow'
 USE_I18N = True
 USE_TZ = True
-LOCALE_PATHS = ['bookmarks/locale']
+LOCALE_PATHS = [BASE_DIR / 'locale']
 
 STATIC_ROOT = BASE_DIR / 'static/'
 STATIC_URL = '/static/'

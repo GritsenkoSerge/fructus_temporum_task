@@ -1,0 +1,111 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2023-08-16 02:14+0300\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+#: backend/bookmarks/apps.py:8 backend/bookmarks/models.py:107
+msgid "bookmarks"
+msgstr ""
+
+#: backend/bookmarks/models.py:13
+msgid "collection_name"
+msgstr ""
+
+#: backend/bookmarks/models.py:17
+msgid "collection_description"
+msgstr ""
+
+#: backend/bookmarks/models.py:27 backend/bookmarks/models.py:89
+#: backend/users/models.py:33
+msgid "user"
+msgstr ""
+
+#: backend/bookmarks/models.py:34 backend/bookmarks/models.py:97
+msgid "collection"
+msgstr ""
+
+#: backend/bookmarks/models.py:35
+msgid "collections"
+msgstr ""
+
+#: backend/bookmarks/models.py:44
+msgid "website"
+msgstr ""
+
+#: backend/bookmarks/models.py:45
+msgid "book"
+msgstr ""
+
+#: backend/bookmarks/models.py:46
+msgid "article"
+msgstr ""
+
+#: backend/bookmarks/models.py:47
+msgid "music"
+msgstr ""
+
+#: backend/bookmarks/models.py:48
+msgid "video"
+msgstr ""
+
+#: backend/bookmarks/models.py:55
+msgid "bookmark_title"
+msgstr ""
+
+#: backend/bookmarks/models.py:62
+msgid "bookmark_description"
+msgstr ""
+
+#: backend/bookmarks/models.py:68 backend/bookmarks/models.py:80
+msgid "bookmark_link"
+msgstr ""
+
+#: backend/bookmarks/models.py:72
+msgid "bookmark_link_type"
+msgstr ""
+
+#: backend/bookmarks/models.py:106
+msgid "bookmark"
+msgstr ""
+
+#: backend/core/models.py:10
+msgid "created_at"
+msgstr ""
+
+#: backend/core/models.py:13
+msgid "updated_at"
+msgstr ""
+
+#: backend/core/models.py:22
+msgid "id"
+msgstr ""
+
+#: backend/users/admin.py:24
+msgid "Permissions"
+msgstr ""
+
+#: backend/users/admin.py:34
+msgid "Important dates"
+msgstr ""
+
+#: backend/users/apps.py:8 backend/users/models.py:34
+msgid "users"
+msgstr ""
+
+#: backend/users/models.py:24
+msgid "A user with that email already exists."
+msgstr ""
