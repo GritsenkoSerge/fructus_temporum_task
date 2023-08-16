@@ -26,7 +26,3 @@ csu:
 .PHONY: run
 run:
 	python backend/manage.py runserver
-
-.PHONY: cs
-cs:
-	python backend/manage.py collectstatic

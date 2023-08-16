@@ -63,6 +63,7 @@ make mo
 ```
 make csu
 ```
+
 ### Запустить сервер
 ```
 make run
