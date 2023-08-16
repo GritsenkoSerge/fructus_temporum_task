@@ -124,7 +124,7 @@ class Migration(migrations.Migration):
                 ),
                 (
                     'image',
-                    models.URLField(blank=True, verbose_name='bookmark_link'),
+                    models.URLField(blank=True, verbose_name='bookmark_image'),
                 ),
                 (
                     'collection',

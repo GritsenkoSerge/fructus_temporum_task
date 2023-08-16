@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2023-08-16 02:14+0300\n"
+"POT-Creation-Date: 2023-08-16 18:40+0300\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -16,9 +16,8 @@ msgstr ""
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=4; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && "
-"n%10<=4 && (n%100<12 || n%100>14) ? 1 : n%10==0 || (n%10>=5 && n%10<=9) || "
-"(n%100>=11 && n%100<=14)? 2 : 3);\n"
+"Plural-Forms: nplurals=4; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<=4 && (n%100<12 || n%100>14) ? 1 : n%10==0 || (n%10>=5 && n%10<=9) || (n%100>=11 && n%100<=14)? 2 : 3);\n"
+
 #: backend/bookmarks/apps.py:8 backend/bookmarks/models.py:107
 msgid "bookmarks"
 msgstr "Закладки"
@@ -72,13 +71,17 @@ msgstr "Заголовок"
 msgid "bookmark_description"
 msgstr "Описание"
 
-#: backend/bookmarks/models.py:68 backend/bookmarks/models.py:80
+#: backend/bookmarks/models.py:68
 msgid "bookmark_link"
 msgstr "Ссылка"
 
 #: backend/bookmarks/models.py:72
 msgid "bookmark_link_type"
 msgstr "Тип ссылки"
+
+#: backend/bookmarks/models.py:80
+msgid "bookmark_image"
+msgstr "Изоображение"
 
 #: backend/bookmarks/models.py:106
 msgid "bookmark"

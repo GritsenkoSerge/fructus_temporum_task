@@ -32,11 +32,16 @@ cp .env.example .env
 docker compose up -d --build
 ```
 ### Ссылки
-- Открыть панель администратора [localhost:8000/admin/](http://localhost:8080/admin/)
 - Открыть страницы документации API:
   * [api.yaml](http://localhost:8080/api/schema/)
   * [swagger-ui](http://localhost:8080/api/schema/swagger-ui/)
   * [redoc](http://localhost:8080/api/schema/redoc/)
+- Открыть панель администратора [localhost:8080/admin/](http://localhost:8080/admin/)
+### Cоздать суперпользователя
+```
+docker compose exec backend bash
+python manage.py createsuperuser
+```
 
 
 ## Запуск проекта в режиме разработчика

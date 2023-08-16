@@ -77,7 +77,7 @@ class Bookmark(TimeStampedMixin, UUIDMixin, models.Model):
     """Тип ссылки."""
 
     image = models.URLField(
-        _('bookmark_link'),
+        _('bookmark_image'),
         blank=True,
     )
     """Ссылка на картинку превью."""
