@@ -6,7 +6,13 @@ from drf_spectacular.views import (
 )
 from rest_framework import routers
 
-from api.views import CollectionViewSet, UserViewSet
+from api.views import (
+    BookmarkViewSet,
+    CollectionViewSet,
+    TokenCreateView,
+    TokenDestroyView,
+    UserViewSet,
+)
 
 app_name = 'api'
 
@@ -14,11 +20,13 @@ router_v1 = routers.DefaultRouter()
 
 router_v1.register('users', UserViewSet, basename='users')
 router_v1.register('collections', CollectionViewSet, basename='collections')
+router_v1.register('bookmarks', BookmarkViewSet, basename='bookmarks')
 
 
 urlpatterns = [
     path('', include(router_v1.urls)),
-    path('auth/', include('djoser.urls.authtoken')),
+    path('auth/login/', TokenCreateView.as_view(), name='login'),
+    path('auth/logout/', TokenDestroyView.as_view(), name='logout'),
     path('schema/', SpectacularAPIView.as_view(), name='openapi-schema'),
     path(
         'schema/swagger-ui/',
