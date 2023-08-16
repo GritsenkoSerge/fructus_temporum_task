@@ -130,6 +130,6 @@ SPECTACULAR_SETTINGS = {
     'VERSION': '1.0.0',
     'SERVE_INCLUDE_SCHEMA': False,
     'TOS': '',  # 'https://bookmarks.gricen.ru/terms/',
-    'CONTACT': {'email': 'admin@gricen.ru'},
+    'CONTACT': {'name': 'Сергей Гриценко', 'email': 'gritsenko.serge.2013@yandex.ru'},
     'LICENSE': {'name': 'MIT License'},
 }
