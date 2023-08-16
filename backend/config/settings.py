@@ -62,11 +62,11 @@ WSGI_APPLICATION = 'config.wsgi.application'
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.postgresql',
-        'NAME': os.environ.get('DB_NAME', 'bookmarks_db'),
-        'USER': os.environ.get('DB_USER', 'bookmarks_user'),
-        'PASSWORD': os.environ.get('DB_PASSWORD', 'bookmarks_pass'),
-        'HOST': os.environ.get('DB_HOST', '127.0.0.1'),
-        'PORT': os.environ.get('DB_PORT', 5432),
+        'NAME': os.environ.get('POSTGRES_DB', 'bookmarks_db'),
+        'USER': os.environ.get('POSTGRES_USER', 'bookmarks_user'),
+        'PASSWORD': os.environ.get('POSTGRES_PASSWORD', 'bookmarks_pass'),
+        'HOST': os.environ.get('POSTGRES_HOST', '127.0.0.1'),
+        'PORT': os.environ.get('POSTGRES_PORT', 5432),
         'OPTIONS': {
             'options': '-c search_path=public,bookmarks',
         },
@@ -97,7 +97,6 @@ REST_FRAMEWORK = {
     'DEFAULT_SCHEMA_CLASS': 'drf_spectacular.openapi.AutoSchema',
     'DEFAULT_AUTHENTICATION_CLASSES': (
         'rest_framework.authentication.TokenAuthentication',
-        # 'rest_framework_simplejwt.authentication.JWTAuthentication',
     ),
 }
 

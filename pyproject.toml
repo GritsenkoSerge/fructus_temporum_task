@@ -17,6 +17,7 @@ drf-spectacular = "^0.26.4"
 djangorestframework = "^3.14.0"
 beautifulsoup4 = "^4.12.2"
 types-requests = "^2.31.0.2"
+gunicorn = "^21.2.0"
 
 [tool.poetry.group.dev.dependencies]
 pytest = "^7.4.0"
