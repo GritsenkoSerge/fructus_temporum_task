@@ -43,7 +43,7 @@ TOKEN_DESTROY_VIEW_SCHEMA = {
 }
 
 USER_VIEW_SET_SCHEMA = {
-    'post': extend_schema(
+    'create': extend_schema(
         summary='Зарегистрировать пользователя.',
         responses={
             status.HTTP_201_CREATED: UserCreateSerializer,

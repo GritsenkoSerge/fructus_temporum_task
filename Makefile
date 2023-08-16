@@ -18,3 +18,15 @@ mm:
 .PHONY: mg
 mg:
 	python backend/manage.py migrate
+
+.PHONY: csu
+csu:
+	python backend/manage.py createsuperuser
+
+.PHONY: run
+run:
+	python backend/manage.py runserver
+
+.PHONY: cs
+cs:
+	python backend/manage.py collectstatic

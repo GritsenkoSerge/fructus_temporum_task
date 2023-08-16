@@ -121,8 +121,8 @@ SWAGGER_SETTINGS = {
 }
 
 SPECTACULAR_SETTINGS = {
-    'TITLE': 'Bookmarks API Documentation',
-    'DESCRIPTION': 'Bookmarks API Documentation description',
+    'TITLE': 'Закладки: документация API',
+    'DESCRIPTION': 'Документация API сервиса работы с закладками пользователей',
     'VERSION': '1.0.0',
     'SERVE_INCLUDE_SCHEMA': False,
     'TOS': '',  # 'https://bookmarks.gricen.ru/terms/',
