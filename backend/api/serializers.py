@@ -66,6 +66,14 @@ class DetailSerializer(serializers.Serializer):
     detail = serializers.CharField()
 
 
+class ValidationSerializer(serializers.Serializer):
+    """HTTP_400."""
+
+    property_1 = serializers.CharField()
+    property_2 = serializers.CharField()
+    non_field_errors = serializers.ListField()
+
+
 class NotAuthenticatedSerializer(DetailSerializer):
     """HTTP_401."""
 
