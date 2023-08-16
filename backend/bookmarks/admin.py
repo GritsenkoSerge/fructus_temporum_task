@@ -5,7 +5,7 @@ from bookmarks.models import Bookmark, Collection
 
 @admin.register(Bookmark)
 class BookmarkAdmin(admin.ModelAdmin):
-    list_display = ('id', 'title', 'link')
+    list_display = ('id', 'title', 'link', 'user', 'collection')
     search_fields = ('title', 'description', 'id')
     list_filter = ('user',)
 

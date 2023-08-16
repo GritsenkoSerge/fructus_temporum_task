@@ -1,5 +1,5 @@
 version: '3.9'
-name: 'bookmarks_dev'
+name: 'bookmarks_prod'
 
 services:
   postgres:
