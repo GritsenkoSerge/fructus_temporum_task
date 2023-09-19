@@ -6,11 +6,11 @@
 [Запуск проекта в режиме разработчика](infra/dev/README.md)
 
 ### Деплой:
-[swagger](http://bookmarks.gricen.ru/api/schema/swagger-ui/)
+[swagger](http://localhost:8000/api/schema/swagger-ui/)
 
-[redoc](http://bookmarks.gricen.ru/api/schema/redoc/)
+[redoc](http://localhost:8000/api/schema/redoc/)
 
-[схема](http://bookmarks.gricen.ru/api/schema/)
+[схема](http://localhost:8000/api/schema/)
 
 ### TODO
 - [devops] ~~запустить проект на хостинге~~
